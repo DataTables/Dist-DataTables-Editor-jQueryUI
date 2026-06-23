@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <version>3.0.0-beta.1</version>
+        <id>datatables.net-editor-jqui</id>
+        <description>This is Editor for DataTables with styling for [jQueryUI](http://jqueryui.com/)</description>
+        <authors>SpryMedia Ltd</authors>
+        <projectUrl>https://datatables.net</projectUrl>
+        <license type="file">License.txt</license>
+        <tags>Editing  CRUD  Inline  Modal  Multi-row  UI  jQueryUI  Datatables table</tags>
+        <dependencies>
+            <dependency id="datatables.net-editor" version="3.0.0-beta.1"/>
+            <dependency id="datatables.net-jqui" version="3.0.0-beta.1"/>
+        </dependencies>
+        <contentFiles>
+            <files include="**/*" buildAction="Content"/>
+        </contentFiles>
+        <readme>Readme.md</readme>
+    </metadata>
+    <files>
+        <file src="Readme.md" target=""/>
+        <file src="js/editor.jqueryui.js" target="content\Scripts"/>
+        <file src="js/editor.jqueryui.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/editor.jqueryui.min.js" target="content\Scripts"/>
+        <file src="js/editor.jqueryui.min.js" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/editor.jqueryui.min.mjs" target="content\Scripts"/>
+        <file src="js/editor.jqueryui.min.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="js/editor.jqueryui.mjs" target="content\Scripts"/>
+        <file src="js/editor.jqueryui.mjs" target="contentFiles\any\any\wwwroot\js"/>
+        <file src="css/editor.jqueryui.css" target="content\Content"/>
+        <file src="css/editor.jqueryui.css" target="contentFiles\any\any\wwwroot\css"/>
+        <file src="css/editor.jqueryui.min.css" target="content\Content"/>
+        <file src="css/editor.jqueryui.min.css" target="contentFiles\any\any\wwwroot\css"/>
+    </files>
+</package>
