@@ -5,7 +5,7 @@
     "module": "js/editor.jqueryui.mjs",
     "style": "css/editor.jqueryui.css",
     "types": "./types/editor.jqueryui.d.ts",
-    "version": "3.0.0-beta.1",
+    "version": "3.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -26,8 +26,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-editor": "3.0.0-beta.1",
-        "datatables.net-jqui": "~2.2"
+        "datatables.net-editor": "3.0.0",
+        "datatables.net-jqui": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
