@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-editor-jqui",
     "description": "Editor for DataTables with styling for [jQueryUI](http://jqueryui.com/)",
-    "main": "js/editor.jqueryui.js",
-    "module": "js/editor.jqueryui.mjs",
-    "style": "css/editor.jqueryui.css",
+    "main": "./js/editor.jqueryui.js",
+    "module": "./js/editor.jqueryui.mjs",
+    "style": "./css/editor.jqueryui.css",
     "types": "./types/editor.jqueryui.d.ts",
     "version": "3.0.2",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Editing",
@@ -35,5 +34,24 @@
     },
     "homepage": "https://datatables.net",
     "bugs": "https://datatables.net/forums",
-    "license": "SEE LICENSE IN License.txt"
+    "license": "SEE LICENSE IN License.txt",
+    "exports": {
+        ".": {
+            "types": "./types/editor.jqueryui.d.ts",
+            "import": "./js/editor.jqueryui.mjs",
+            "default": "./js/editor.jqueryui.mjs",
+            "require": "./js/editor.jqueryui.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/editor.jqueryui.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
