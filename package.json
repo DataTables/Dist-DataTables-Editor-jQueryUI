@@ -38,9 +38,10 @@
     "exports": {
         ".": {
             "types": "./types/editor.jqueryui.d.ts",
+            "style": "./css/editor.jqueryui.css",
             "import": "./js/editor.jqueryui.mjs",
-            "default": "./js/editor.jqueryui.mjs",
-            "require": "./js/editor.jqueryui.js"
+            "require": "./js/editor.jqueryui.js",
+            "default": "./js/editor.jqueryui.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
