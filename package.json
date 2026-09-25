@@ -5,7 +5,7 @@
     "module": "./js/editor.jqueryui.mjs",
     "style": "./css/editor.jqueryui.css",
     "types": "./types/editor.jqueryui.d.ts",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "files": [
         "js",
         "css",
@@ -25,7 +25,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-editor": "3.1.0",
+        "datatables.net-editor": "3.1.1",
         "datatables.net-jqui": "^3.1"
     },
     "author": {
